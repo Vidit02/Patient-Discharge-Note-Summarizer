@@ -4,7 +4,7 @@ A lightweight system that turns complex clinical discharge notes into clear, pat
 
 ---
 
-## ✨ Features
+## Features
 
 - **Abstractive summarization** using fine‑tuned transformer models (e.g., `t5-small`, `facebook/bart-base`).
 - **Optional RAG layer**: retrieves lay explanations for medical terms.
@@ -13,7 +13,7 @@ A lightweight system that turns complex clinical discharge notes into clear, pat
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.9+
 - pip/venv (or conda) and (optionally) a GPU-enabled PyTorch install
@@ -63,7 +63,7 @@ You can start with ~100 common terms and expand over time.
 
 ---
 
-## 🚀 Run the App
+##  Run the App
 
 From the project root:
 
@@ -80,7 +80,7 @@ streamlit run app.py
 
 ---
 
-## 🧠 Notes on Data
+## Notes on Data
 
 - We work with de‑identified clinical notes (e.g., MIMIC‑IV). Follow all data access rules and do **not** include PHI.
 - For patient‑facing simplification, pair your notes with lay‑term definitions to power the RAG explanations.
@@ -88,7 +88,7 @@ streamlit run app.py
 
 ---
 
-## 📈 Expected Results & Limitations
+## Expected Results & Limitations
 
 - Fine‑tuning typically improves ROUGE/BERTScore and readability vs. base checkpoints.
 - RAG adds **factual grounding** for medical terms so summaries are clearer for non‑experts.
@@ -103,7 +103,7 @@ streamlit run app.py
 
 ---
 
-## 💡 Quick Commands Recap
+## Quick Commands Recap
 
 ```bash
 # 1) Install
